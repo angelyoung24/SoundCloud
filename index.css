@@ -8,6 +8,8 @@
     background-image: linear-gradient(to right, red, yellow);
 }
 
+.card {
+    text-align: center;
 }
 
 #stopButton {
