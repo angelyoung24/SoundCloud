@@ -16,13 +16,5 @@ span {
     margin: 20px;
 }
 
-#pauseButton {
-    height: 74px;
-    border-style: double;
-    border-width: 0px 0px 0px 37px;
-    border-color: orange;
-    float: left;
-    margin: 5%;
-}
 
 
