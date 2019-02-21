@@ -9,9 +9,6 @@ var cloudplayer
 var playlist
 var box1 = document.getElementById('box1');
 var box2 = document.getElementById('box2');
-var box3 = document.getElementById('box3');
-var box4 = document.getElementById('box4');
-
 
 submit.addEventListener('click', function () {
     SC.get("/tracks/", { q: search.value })
@@ -22,13 +19,12 @@ submit.addEventListener('click', function () {
                 cloudPlayer.play();
                 box1.innerHTML = response[0].title;
                 box2.innerHTML = response[0].genre;
-                box3.innerHTML = response[0].created_at;
-                box4.innerHTML = response[0].artwork_url;
                 });
 
             });
         });
 
+        
 
 pauseButton.addEventListener('click', function () {
     console.log("paused");
