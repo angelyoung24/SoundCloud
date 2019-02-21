@@ -4,6 +4,8 @@
 }
 
 
+.nav {
+    background-image: linear-gradient(to right, red, yellow);
 }
 
 #playButton {
