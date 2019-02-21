@@ -12,6 +12,8 @@
     text-align: center;
 }
 
+span {
+    margin: 20px;
 }
 
 #pauseButton {
