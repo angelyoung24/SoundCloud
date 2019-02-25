@@ -5,12 +5,13 @@
 
 
 .nav {
-    background-image: linear-gradient(to right, red, yellow);
+    background: radial-gradient(circle, rgba(251, 252, 4, 1) 0%, rgba(246, 6, 6, 1) 100%);
 }
+
 
 .card {
     text-align: center;
-}
+    }
 
 span {
     margin: 20px;
